@@ -62,6 +62,7 @@ let Content = ({total})=>{
     <div className="row gx-4 gx-lg-5 justify-content-center">
       <div className="col-md-12">
         <div className="text-center">
+            <button className="btn">Okay</button>
           <button className="btn btn-outline-danger" onClick={()=>{ 
             setCounter(++counter)}}>{counter} Guests online</button>
         </div> 
